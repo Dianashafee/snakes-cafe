@@ -48,7 +48,7 @@ while i:
               """
         print(ordermsg)
     
-    urChoice = str(input())
+    urChoice = str(input()).capitalize()
 
     if urChoice in menu:
         order.append(urChoice)
